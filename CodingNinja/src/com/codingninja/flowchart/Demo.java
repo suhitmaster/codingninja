@@ -2,14 +2,17 @@ package com.codingninja.flowchart;
 
 import java.util.Scanner;
 
-public class Demo {
-	public static void main(String []cp) {
-		
-		int x = 10;
-		while(x >= 0) {
-		    x = x - 1;
-		    System.out.print(x);
-		    x--;
-		}
-	}
+public class Demo {public static void func1(int a,int b)
+{
+    int ans=1;
+    for(int i=0;i<b;i++)
+    {
+        ans*=a;
+    }
+    System.out.print(ans);
 }
+public static void main (String[] args) {
+    func1(2,5);
+}
+}
+
